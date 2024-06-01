@@ -1,0 +1,22 @@
+{
+  "name": "DB-backup",
+  "version": "1.0.0",
+  "description": "DB Backup cronJob",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.0",
+    "mysql2": "^2.1.0",
+    "moment": "^2.24.0",
+    "aws-sdk": "^2.887.0",
+    "express": "^4.17.1",
+    "node-cron": "^3.0.3"
+
+  }
+}
